@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E49056AA150649F4007826EF /* (null) in Sources */ = {isa = PBXBuildFile; };
-		E4BAC8E9150CECCD00630D90 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		E4BCF9221503D3BC0092052F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BCF9211503D3BC0092052F /* Foundation.framework */; };
 		E4BCF9381503D5BF0092052F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4BCF9371503D5BF0092052F /* UIKit.framework */; };
 		E4BCF93A1503D5C600920531 /* PGWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = E4BCF93A1503D5C600920530 /* PGWindow.m */; };
@@ -21,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA5CD77805F930E25456F6F0 /* Playground.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; path = Playground.podspec; sourceTree = "<group>"; };
 		E440377D151CE08700B33299 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		E4BCF91E1503D3BC0092052F /* libPlayground.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPlayground.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BCF9211503D3BC0092052F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -56,6 +55,7 @@
 				E4BCF9231503D3BC0092052F /* Playground */,
 				E4BCF9201503D3BC0092052F /* Frameworks */,
 				E4BCF91F1503D3BC0092052F /* Products */,
+				AA5CD77805F930E25456F6F0 /* Playground.podspec */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,8 +177,6 @@
 				E4BCF93A1503D5C600920531 /* PGWindow.m in Sources */,
 				E4BCF93A1503D5C600920536 /* PGTargetView.m in Sources */,
 				E4BCF93A1503D5C60092053A /* PGInputView.m in Sources */,
-				E49056AA150649F4007826EF /* (null) in Sources */,
-				E4BAC8E9150CECCD00630D90 /* (null) in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
